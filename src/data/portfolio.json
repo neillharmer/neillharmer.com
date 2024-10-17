@@ -1,0 +1,142 @@
+
+[
+  {
+    "id": "shutthebox",
+    "className": "shutthebox text_white",
+    "title": "Shut The Box, Game",
+    "captions": {
+      "shortCaption": "Shut The Box is a game I developed that is both simple to play and incredibly challenging. The objective is straightforward: roll the dice, knock down the numbered tiles, and aim for the lowest score to win. It features both dark and light modes, options to share your results with friends, and new updates are frequently introduced to enhance the experience.",
+      "longCaption": "Shut The Box is a game I developed that is both simple to play and incredibly challenging. The objective is straightforward: roll the dice, knock down the numbered tiles, and aim for the lowest score to win. It features both dark and light modes, options to share your results with friends, and new updates are frequently introduced to enhance the experience."
+    },
+    "image": "shutTheBox",
+    "summaryTags": ["UX", "UI", "SCSS", "HTML", "ReactJS", "Responsive", "Animation", "Material UI"], 
+    "learnMore": false,
+    "webLink": "http://www.shutthebox.fun"
+  },
+  {
+    "id": "mediamanager",
+    "className": "mediamanager text_white",
+    "title": "LightCMS, Media Manager",
+    "captions": {
+      "shortCaption": "LightCMS enabled users to effortlessly add images and documents to any element through this redesigned media manager. This upgrade, replacing the clunky and outdated media manager, was achieved through a comprehensive process involving research, user feedback, wireframing, iteration, coding, testing, and further refinement. The new media manager was highly praised upon its release.",
+      "longCaption": "LightCMS enabled users to effortlessly add images and documents to any element through this redesigned media manager. This upgrade, replacing the clunky and outdated media manager, was achieved through a comprehensive process involving research, user feedback, wireframing, iteration, coding, testing, and further refinement. The new media manager was highly praised upon its release."
+    },
+    "image": "mediaManager",
+    "summaryTags": ["UX", "UI", "Wireframes", "Photoshop", "SCSS", "HTML", "ReactJS", "Responsive", "Animation"], 
+    "learnMore": false
+  },
+  {
+    "id": "editor",
+    "className": "editor text_black halfsies halfsies-left",
+    "title": "LightCMS, Source Editor",
+    "captions": {
+      "shortCaption": "By integrating ACE Editor, we empowered users to update their site on the fly without needing a separate coding application."
+    },
+    "image": "sourceEditor",
+    "summaryTags": ["UX", "UI", "Wireframes", "Photoshop", "SCSS", "HTML", "ReactJS", "AceEditor", "Responsive"], 
+    "learnMore": true
+  },
+  {
+    "id": "checkout",
+    "className": "checkout text_black halfsies halfsies-right",
+    "title": "LightCMS, Store Checkout",
+    "captions": {
+      "shortCaption": "LightCMS needed to streamline the store checkout process to accommodate hundreds of thousands of clients across the CMS."
+    },
+    "image": "storeCheckout",
+    "summaryTags": ["UX", "UI", "Wireframes", "Photoshop", "SCSS", "HTML", "ReactJS", "508 Compliant", "ADA", "Responsive"], 
+    "learnMore": true
+  },
+
+  {
+    "id": "clientreport",
+    "className": "lep text_white halfsies halfsies-left",
+    "title": "WeGoLook, Client Report",
+    "captions": {
+      "shortCaption": "The client-facing report needed a complete makeover to make essential information easily accessible at a glance"
+    },
+    "image": "vehicleReport",
+    "summaryTags": ["UX", "UI", "Figma", "SCSS", "HTML", "JS", "AngularJS", "Responsive"], 
+    "learnMore": true
+  },
+
+  {
+    "id": "element",
+    "className": "element text_black halfsies halfsies-right",
+    "title": "LightCMS, Add Element",
+    "captions": {
+      "shortCaption": "This feature enabled you to add any of the available elements to any section of your website."
+    },
+    "image": "element",
+    "summaryTags": ["UX", "UI", "Wireframes", "Photoshop", "SCSS", "HTML", "ReactJS", "Responsive", "Animation"], 
+    "learnMore": true
+  },
+  {
+    "id": "suitecommerce",
+    "className": "suitecommerce text_white",
+    "title": "NetSuite, SuiteCommerce Redesign",
+    "captions": {
+      "shortCaption": "NetSuite SuiteCommerce required a new site to highlight their top vendors and their solutions. The collaboration with Jordan Winn resulted in a stunning design that completely impressed NetSuite."
+    },
+    "image": "suiteCommerce",
+    "summaryTags": ["UX", "UI", "Wireframes", "Photoshop", "SCSS", "HTML", "ReactJS", "Responsive"]
+  },
+
+  {
+    "id": "springshirt",
+    "className": "springshirt text_white",
+    "title": "Element Fusion, T-Shirt Design",
+    "captions": {
+      "shortCaption": "Element Fusion would do quarterly shirts, and this was my first design, and my all time favorite!"
+    },
+    "image": "springShirt",
+    "summaryTags": ["Design", "Shirt", "Screen Pring", "Illustrator", "Photoshop"]
+  },
+
+
+
+  {
+    "id": "support",
+    "className": "support text_white halfsies halfsies-left",
+    "title": "LightCMS, Support Page",
+    "captions": {
+      "shortCaption": "When users needed a question answered, they wanted direct access to the solution to address the problem efficiently."
+    },
+    "image": "supportPage",
+    "summaryTags": ["UX", "UI", "Wireframes", "Photoshop", "SCSS", "HTML", "ReactJS", "Responsive"], 
+    "learnMore": true
+  },
+
+  {
+    "id": "dashboard",
+    "className": "dashboard text_black halfsies halfsies-right",
+    "title": "LightCMS, Account Dash",
+    "captions": {
+      "shortCaption": "As a LightCMS white-label partner, you needed a quick overview of your sites status at a glance."
+    },
+    "image": "dashboard",
+    "summaryTags": ["UX", "UI", "Wireframes", "Photoshop", "SCSS", "HTML", "ReactJS", "Responsive"], 
+    "learnMore": true
+  },
+  {
+    "id": "lagree",
+    "className": "lagree text_white",
+    "title": "LaGree Associates, Website Redesign",
+    "captions": {
+      "shortCaption": "LaGree, based in Oklahoma City, desired a new, bold, and colorful design that would highlight their expertise in selling commercial properties."
+    },
+    "image": "laGree",
+    "summaryTags": ["UX", "UI", "Wireframes", "Figma", "Photoshop", "SCSS", "HTML", "Wordpress", "Responsive"]
+  },
+
+  {
+    "id": "lightcms",
+    "className": "lightcms text_white",
+    "title": "Oracle, LightCMS Redesign",
+    "captions": {
+      "shortCaption": "LightCMS needed a facelift to showcase more of its interface and highlight its functionality. This visual update led to approximately a 6% increase in LightCMS signups!"
+    },
+    "image": "lightCMS",
+    "summaryTags": ["UX", "UI", "Wireframes", "Figma", "Photoshop", "SCSS", "HTML", "Responsive"]
+  }
+]

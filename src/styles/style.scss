@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:300,300i,700,700i");
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  font: 1rem/1.8 "Nunito Sans", sans-serif;
+  color: #2c2c2c;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6;
+}
+
+
+
+// Highlights
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+
+
+// Links
+header a, 
+main a {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  transition: all 0.25s ease-in-out;
+
+  &:hover {
+    color: #000;
+    border-bottom: 2px solid black;
+  }
+}
+
+
+
+// Titles
+h2 {
+  margin: 0;
+  font: normal 2rem/1.4 "Merriweather", sans-serif;
+  color: #000;
+  font-style: italic;
+  width: 100%;
+
+  @media screen and (max-width: 640px) {
+    font: normal 1.65rem/1.4 "Merriweather", sans-serif;
+    margin-bottom: 0.625rem;
+  }
+}
+
+
+
+// Contents
+.contents {
+  p {
+    margin: 0 0 1.875rem 0;
+
+    :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  img {
+    vertical-align: bottom;
+    max-width: 100%;
+    height: auto;
+  }
+
+  div {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+}
+
+
+
+// Header
+header > div,
+main article > div,
+.backBar > div {
+  width: 90%;
+  max-width: 1080px;
+  margin: auto;
+}
+
+.backBar {
+  background: #000;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    transition: all 0.25s ease-in-out;
+  
+    &:hover {
+      color: #fefefe;
+      border-bottom: 2px solid black;
+
+      span {
+        padding-right: 5px;
+      }
+    }
+
+    span {
+      font-size: 1rem;
+      transition: all 0.25s ease-in-out;
+    }
+  }
+}
+
+@media screen and (min-width: 980px) {
+  main article.halfsies {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+
+    &.halfsies-left > div {
+      max-width: calc(540px - 10%);
+      margin-right: 10%;
+    }
+
+    &.halfsies-right > div {
+      max-width: calc(540px - 10%);
+      margin-left: 10%;
+    }
+  }
+}
+
+
+// Header
+header {
+  padding: 3.125rem 0;
+  background: #fff;
+  
+  > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+
+    @media screen and (max-width: 640px) {
+      flex-direction: column;
+    }
+  }
+
+  h1 {
+    width: 45%;
+    margin: 0;
+
+    @media screen and (max-width: 640px) {
+      width: 100%;
+    }
+  
+    a {
+      font: bold 4.5rem/4.375rem "Nunito Sans", sans-serif;
+      color: #000;
+      display: block;
+      border: 0.6875rem solid #000 !important;
+      height: 9rem;
+      width: 9rem;
+      padding: 1.5625rem 0 0;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 900;
+
+      @media screen and (max-width: 960px) {
+        margin: auto;
+      }
+    }
+
+  }
+
+  p {
+    font: 500 1.15rem/1.6 "Merriweather", sans-serif;
+    width: 75%;
+
+    @media screen and (max-width: 960px) {
+      width: calc(100% - 8.75rem);
+      padding-left: 10%;
+    }
+
+    @media screen and (max-width: 640px) {
+      width: 100%;
+      padding-left: 0;
+      text-align: center;
+    }
+  }
+
+  a, strong {
+    font-weight: 600;
+  }  
+}
+
+.img {border: none !important}
+
+
+// Main Content
+main {
+  article {
+    padding: 7.5rem 0;
+    width: 100%;
+
+    @media screen and (max-width: 640px) {
+      padding: 3rem 0;
+    }
+
+    &.folio-detail {
+      background-color: #aeaeae;
+      padding: 4rem 0;
+      min-height: 25rem;
+    }
+
+    &.flex {background-color: #aeaeae;}
+    &.shutthebox {background-color: #9199a2;}
+      &.shutthebox figure img {box-shadow: none !important;}
+      &.shutthebox a {color: white !important; border-bottom-color: white !important}
+    &.mediamanager {background-color: #3184bc;}
+    &.checkout {background-color: #f1f1f1;}
+    &.lagree {background-color: #67707a;}
+    &.editor {background-color: #9199a2;}
+    &.support {background-color: #1d1d1d;}
+    &.dashboard {background-color: #aeaeae;}
+    &.element {background-color: #aeaeae;}
+    &.suitecommerce {background-color: #d55e1c;}
+    &.lep {background-color: #1d1d1d;}
+    &.tabular {background-color: #149842;}
+    &.tasks {background-color: #aeaeae;}
+    &.lightcms {background-color: #3184bc;}
+    &.springshirt {background-color: #3184bc;}
+  }
+
+  figure {
+    text-align: center;
+    margin: 0 0 1.25rem;
+    width: 100%;
+
+    &.folioList {
+      cursor: pointer;
+      position: relative;
+      transition: all 0.25s ease-in-out;
+
+      button {
+        opacity: 0;
+
+        width: 8.125rem;
+        height: 50px;
+        top: calc(47% - 25px);
+        left: calc(50% - 4.0625rem);
+        user-select: none;
+        appearance: button;
+        backface-visibility: hidden;
+        cursor: pointer;
+        position: absolute;
+        transition: all 0.25s ease-in-out;
+        z-index: 11;
+        background: #222;
+        color: #fff;
+        border: none;
+        font-size: 1rem;
+        padding: 0.9375rem 1.25rem 0.875rem;
+        border-radius: 0.25rem;
+        box-shadow: 0 0 0.9375rem 0 rgba(0, 0, 0, 0.55);
+      }
+
+      &:hover {
+        img {
+          opacity: 60%;
+          transition: all 0.25s ease-in-out;
+        }
+
+        button {
+          opacity: 100%;
+          transform: translate(0, 15px);
+        }
+      }
+    }
+  }
+
+  img {
+    height: auto;
+    width: 100%;
+    border-radius: 0.3125rem;
+    box-shadow: 0 0 0.9375rem 0 rgba(0, 0, 0, 0.25);
+  }
+
+  figcaption {
+    margin-bottom: 2.1875rem;
+  }
+
+  summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 100%;
+    font-size: 0.75rem;
+
+    span {
+      padding: 0.15rem .65rem;
+      background: rgba(0, 0, 0, 0.35);
+      border-radius: 999px;
+      margin: 0.25rem;
+    }
+  }
+
+  .text_white,
+  .text_white h2 {
+    color: #fff;
+  }
+  
+}
+
+
+// Footer
+footer {
+  text-align: center;
+  padding: 3.125rem 0 6.25rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+
+  .social-icon {
+    margin: 0 0.3125rem;
+    transition: all 0.25s ease-in-out;
+    height: 2.1875rem !important;
+    width: 2.1875rem !important;
+
+    &:hover {
+      opacity: 60%;
+    }
+  }
+}

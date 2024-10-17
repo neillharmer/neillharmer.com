@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.acd45c63.css",
+    "main.js": "/static/js/main.d0d90704.js",
+    "static/media/shutthebox.png": "/static/media/shutthebox.b45d5800666914bfd516.png",
+    "static/media/since1999.png": "/static/media/since1999.3f3ae23e008da391b30f.png",
+    "static/media/lightcms-mediamanager.png": "/static/media/lightcms-mediamanager.c837d686a5df3af6d684.png",
+    "static/media/lightcms.jpg": "/static/media/lightcms.6f8dad582dc55ab9b6cf.jpg",
+    "static/media/suitecommerce.jpg": "/static/media/suitecommerce.bf9265de3d5173f848e1.jpg",
+    "static/media/look-report.png": "/static/media/look-report.766432116a85d159deaf.png",
+    "static/media/sourceeditor.png": "/static/media/sourceeditor.98c3e31b276fcaa97446.png",
+    "static/media/lagree.jpg": "/static/media/lagree.a15107d689a030562abc.jpg",
+    "static/media/dashboard.jpg": "/static/media/dashboard.96e07126a4b72319ea89.jpg",
+    "static/media/support.jpg": "/static/media/support.727fade6b433ae6d6290.jpg",
+    "static/media/lightcms-checkout.png": "/static/media/lightcms-checkout.10670f670a231b3bd24c.png",
+    "static/media/lcms-element.jpg": "/static/media/lcms-element.2f1f36da30ebf3e58ed3.jpg",
+    "index.html": "/index.html",
+    "main.acd45c63.css.map": "/static/css/main.acd45c63.css.map",
+    "main.d0d90704.js.map": "/static/js/main.d0d90704.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acd45c63.css",
+    "static/js/main.d0d90704.js"
+  ]
+}
