@@ -23,8 +23,8 @@ const Footer: React.FC<FooterProps> = ({ isFolioPage }) => {
         <SocialIcon url="https://www.instagram.com/neeyoll/" />
         <SocialIcon url="https://www.linkedin.com/in/neillharmer/" />
         <SocialIcon url="https://dribbble.com/neillharmer" />
-        <SocialIcon url="mailto:neill.harmer@gmail.com" />
-        <p>&copy; 2001 - {currentYear} Neill Harmer</p>
+        <SocialIcon url="mailto:neill@rudder.digital" />
+        <p>&copy; 2001 - {currentYear} Neill Harmer at <a href="https://www.Rudder.Digital">www.Rudder.Digital</a></p>
       </footer>
     </div>
   );

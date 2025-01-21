@@ -9,9 +9,8 @@ const Header: React.FC<HeaderProps> = ({ isFolioPage }) => {
     <div>
       <header>
           <div>
-            <h1><a href="/" title="Neill Harmer - Senior UX/UI Engineer">N</a></h1>
-            <p>I'm <a href="https://www.linkedin.com/in/neillharmer/" target="_blank" rel="noreferrer">Neill Harmer</a>, an <strong>Engineering Manager</strong> with a track record of improving site performance and team efficiency through innovative design thinking and technical skills. I am passionate about creating seamless and intuitive user experiences that drive business success. I have a strong foundation in both design and development, and am excited to bring my skills and experience to a company where I can contribute to advancing innovative projects.</p>
-            {/* <p>I'm <a href="/about/">Neill Harmer</a>, a self-taught <strong>UX, UI, and frontend engineer</strong> with <a href="https://www.linkedin.com/in/neillharmer/" target="_blank" rel="noreferrer">over two decades of experience</a>, I am passionate about creating seamless and intuitive user experiences that drive business success. I have strong foundation in both design and development, and am excited to bring my skills and experience to a company where I can contribute to advancing innovative projects.</p> */}
+            <h1><a href="/" title="Neill Harmer - Owner and Founder of Rudder.Digital | Nationally ranked Strongman | Private pilot">N</a></h1>
+            <p>I'm <a href="https://www.linkedin.com/in/neillharmer/" target="_blank" rel="noreferrer">Neill Harmer</a>, <strong>owner and founder</strong> of <a href="https://www.rudder.digital">Rudder.Digital</a>, with a track record of improving site performance and efficiency through innovative design thinking and technical skills. I am passionate about creating seamless and intuitive user experiences that drive success. I have a strong foundation in both design and development, and am excited to bring my skills and experience to advancing innovative projects.</p>
           </div>
       </header>
       {isFolioPage ? (

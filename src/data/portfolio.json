@@ -1,6 +1,18 @@
 
 [
   {
+    "id": "jasonthebarber",
+    "className": "jasonthebarber",
+    "title": "Jason The Barber",
+    "captions": {
+      "shortCaption": "Jason wanted a website that matched his craft: clean, precise, and timeless! Where he could point his clients to show off work, let them book appointments, and allow him to easily update.",
+      "longCaption": "Shut The Box is a game I developed that is both simple to play and incredibly challenging. The objective is straightforward: roll the dice, knock down the numbered tiles, and aim for the lowest score to win. It features both dark and light modes, options to share your results with friends, and new updates are frequently introduced to enhance the experience."
+    },
+    "image": "jasonTheBarber",
+    "summaryTags": ["UX", "UI", "Figma", "Photoshop", "SCSS", "HTML", "WordPress", "Responsive", "Animation", "Bootstrap"], 
+    "learnMore": false
+  },
+  {
     "id": "shutthebox",
     "className": "shutthebox text_white",
     "title": "Shut The Box, Game",

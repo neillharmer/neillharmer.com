@@ -10,6 +10,7 @@ import shutTheBox from '../../assets/shutthebox.png';
 import dashboard from '../../assets/dashboard.jpg';
 import element from '../../assets/lcms-element.jpg';
 import suiteCommerce from '../../assets/suitecommerce.jpg';
+import jasonTheBarber from '../../assets/jasonthebarber.png';
 import lightCMS from '../../assets/lightcms.jpg';
 import porfolioData from '../../data/portfolio.json'
 import springShirt from '../../assets/since1999.png'
@@ -42,7 +43,8 @@ const images: { [key: string]: string } = {
   lightCMS,
   shutTheBox,
   suiteCommerce, 
-  springShirt
+  springShirt,
+  jasonTheBarber
 };
 
 const portfolio = porfolioData.map((item) => ({
